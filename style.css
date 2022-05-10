@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 100px;
+    padding-top: 10px;
+    gap: 10px;
+    color: white;
+}
+
+.row *{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+ 
+    
+}
+
+.col {
+    background-color: cadetblue;
+    flex: 1;
+}
+
+.col-2 {
+    background-color: cadetblue;
+    flex: 2;
+}
+
+.col-3 {
+    background-color: cadetblue;
+    flex: 3;
+}
